@@ -7,8 +7,7 @@ import pages.LoginPages;
 
 
 public class BasicComponentTest extends CommonAPI {
-        //    @Test
-       //  public void test1() {
+
 
     @Test
     public void checkUserLandOnTheRightWebsite() {
@@ -20,8 +19,9 @@ public class BasicComponentTest extends CommonAPI {
     @Test
          public void checkPresenceOfLoginPageComponents () {
         LoginPages loginPages = new LoginPages(driver);
-         Assert.assertTrue(loginPages.checkUserNameFieldPresence());
-         Assert.assertTrue(loginPages.checkPasswordFieldPresence());
+        loginPages.enterUserName("standard_user");
+        loginPages.enterPassword("secret_sauce");
+        loginPages.clickOnLoginBtn();
          Assert.assertTrue(loginPages.checkLoginBtnPresence());
 
      }
