@@ -1,12 +1,8 @@
-package base.base;
+package practice;
 
 import org.testng.annotations.BeforeMethod;
 
 public class SeleniumPractice {
-
-@BeforeMethod
-
- System.out
 
 
 

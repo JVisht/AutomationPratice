@@ -1,25 +1,40 @@
+
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
  <suite name="saucedemo  test">
 
     <parameter name="useCloudEnv" value="false"></parameter>
-    <parameter name="envName" value="browserstack"></parameter>
-   <parameter name = "osVersion" value="Sierra"></parameter>
-    <parameter name="browserVersion" value="100"></parameter>
-
-   <parameter name="os" value="OS X"></parameter>
+    <parameter name="envName" value="browserStack"></parameter>
+    <parameter name="os" value="OS X"></parameter>
+    <parameter name="osVersion" value="10"></parameter>
     <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="Sierra"></parameter>
     <parameter name="url" value="https://www.saucedemo.com/"></parameter>
-  <test name="Login">
-       <classes>
-          <class name= "com.saucedemo.LoginTest"></class>
-        </classes>
-    </test>
-    <test name ="basic components">
+    <parameter name="urlUsername" value="standard_user"></parameter>
+    <parameter name="urlPassword" value="secret_sauce"></parameter>
+<!--  <test name="Login">-->
+<!--      <classes>-->
+<!--         <class name="com.saucedemo.LoginTest"></class>-->
+<!--        </classes>-->
+<!--   </test>-->
+<!--    <test name ="Home Page">-->
+<!--        <classes>-->
+<!--            <class name="com.saucedemo.HomePageTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Inventory Back Pack page">-->
+<!--    <classes>-->
+<!--        <class name="com.saucedemo.InventoryBackpackTest"></class>-->
+<!--    </classes>-->
+<!--    </test>-->
+<!--   <test name="Sort Container Item Sort">-->
+<!--      <classes>-->
+<!--         <class name="com.saucedemo.ProductSortContainerTest"></class>-->
+<!--      </classes>-->
+<!--   </test>-->
+    <test name="Add Item to cart page">
         <classes>
-            <class name="com.saucedemo.BasicComponentTest"></class>
+            <class name="com.saucedemo.AddItemToCartTest"></class>
         </classes>
     </test>
-
-
 </suite>
