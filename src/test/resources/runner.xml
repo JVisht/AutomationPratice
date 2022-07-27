@@ -12,26 +12,26 @@
     <parameter name="url" value="https://www.saucedemo.com/"></parameter>
     <parameter name="urlUsername" value="standard_user"></parameter>
     <parameter name="urlPassword" value="secret_sauce"></parameter>
-<!--  <test name="Login">-->
-<!--      <classes>-->
-<!--         <class name="com.saucedemo.LoginTest"></class>-->
-<!--        </classes>-->
-<!--   </test>-->
-<!--    <test name ="Home Page">-->
-<!--        <classes>-->
-<!--            <class name="com.saucedemo.HomePageTest"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test name="Inventory Back Pack page">-->
-<!--    <classes>-->
-<!--        <class name="com.saucedemo.InventoryBackpackTest"></class>-->
-<!--    </classes>-->
-<!--    </test>-->
-<!--   <test name="Sort Container Item Sort">-->
-<!--      <classes>-->
-<!--         <class name="com.saucedemo.ProductSortContainerTest"></class>-->
-<!--      </classes>-->
-<!--   </test>-->
+  <test name="Login">
+      <classes>
+         <class name="com.saucedemo.LoginTest"></class>
+        </classes>
+   </test>
+    <test name ="Home Page">
+        <classes>
+            <class name="com.saucedemo.HomePageTest"></class>
+        </classes>
+    </test>
+    <test name="Inventory Back Pack page">
+    <classes>
+        <class name="com.saucedemo.InventoryBackpackTest"></class>
+    </classes>
+    </test>
+   <test name="Sort Container Item Sort">
+      <classes>
+         <class name="com.saucedemo.ProductSortContainerTest"></class>
+      </classes>
+   </test>
     <test name="Add Item to cart page">
         <classes>
             <class name="com.saucedemo.AddItemToCartTest"></class>

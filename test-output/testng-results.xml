@@ -1,30 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Extent Report Directory/Users/sanjaysinghgussain/IdeaProjects/comlearnAutomation/test-output/html]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-07-11T10:04:44 EDT" name="saucedemo  test" finished-at="2022-07-11T10:05:04 EDT" duration-ms="19590">
+  <suite started-at="2022-07-21T22:56:10 EDT" name="saucedemo  test" finished-at="2022-07-21T22:57:29 EDT" duration-ms="78988">
     <groups>
     </groups>
-    <test started-at="2022-07-11T10:04:44 EDT" name="Add Item to cart page" finished-at="2022-07-11T10:05:04 EDT" duration-ms="19590">
-      <class name="com.saucedemo.AddItemToCartTest">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:com.saucedemo.AddItemToCartTest@3bd40a57]" started-at="2022-07-11T10:04:44 EDT" name="extentSetup" finished-at="2022-07-11T10:04:44 EDT" duration-ms="207" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@49e4c2d5]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Extent Report Directory/Users/sanjaysinghgussain/IdeaProjects/comlearnAutomation/test-output/html]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.AddItemToCartTest@3bd40a57]" started-at="2022-07-11T10:04:44 EDT" name="setUp" finished-at="2022-07-11T10:04:48 EDT" duration-ms="4111" status="PASS">
+    <test started-at="2022-07-21T22:56:10 EDT" name="Login" finished-at="2022-07-21T22:56:26 EDT" duration-ms="15510">
+      <class name="com.saucedemo.LoginTest">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.LoginTest@6646153]" started-at="2022-07-21T22:56:10 EDT" name="setUp" finished-at="2022-07-21T22:56:14 EDT" duration-ms="3325" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,7 +51,1042 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.AddItemToCartTest@3bd40a57]" started-at="2022-07-11T10:04:48 EDT" name="startExtent" finished-at="2022-07-11T10:04:48 EDT" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.LoginTest@6646153]" started-at="2022-07-21T22:56:14 EDT" name="startExtent" finished-at="2022-07-21T22:56:14 EDT" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.LoginTest.LoginWithInvalidPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="LoginWithInvalidPassword()[pri:0, instance:com.saucedemo.LoginTest@6646153]" started-at="2022-07-21T22:56:14 EDT" name="LoginWithInvalidPassword" finished-at="2022-07-21T22:56:14 EDT" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvalidPassword -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.saucedemo.LoginTest@6646153]" started-at="2022-07-21T22:56:14 EDT" name="afterEachTestMethod" finished-at="2022-07-21T22:56:14 EDT" duration-ms="310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginWithInvalidPassword status=SUCCESS method=LoginTest.LoginWithInvalidPassword()[pri:0, instance:com.saucedemo.LoginTest@6646153] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.LoginTest@6646153]" started-at="2022-07-21T22:56:14 EDT" name="setUp" finished-at="2022-07-21T22:56:16 EDT" duration-ms="1839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserStack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.LoginTest@6646153]" started-at="2022-07-21T22:56:16 EDT" name="startExtent" finished-at="2022-07-21T22:56:16 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.LoginTest.LoginWithInvalidUsername()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="LoginWithInvalidUsername()[pri:0, instance:com.saucedemo.LoginTest@6646153]" started-at="2022-07-21T22:56:16 EDT" name="LoginWithInvalidUsername" finished-at="2022-07-21T22:56:17 EDT" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvalidUsername -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.saucedemo.LoginTest@6646153]" started-at="2022-07-21T22:56:17 EDT" name="afterEachTestMethod" finished-at="2022-07-21T22:56:17 EDT" duration-ms="213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginWithInvalidUsername status=SUCCESS method=LoginTest.LoginWithInvalidUsername()[pri:0, instance:com.saucedemo.LoginTest@6646153] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.LoginTest@6646153]" started-at="2022-07-21T22:56:17 EDT" name="setUp" finished-at="2022-07-21T22:56:18 EDT" duration-ms="1736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserStack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.LoginTest@6646153]" started-at="2022-07-21T22:56:18 EDT" name="startExtent" finished-at="2022-07-21T22:56:18 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.LoginTest.LoginWithLockedOutUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="LoginWithLockedOutUser()[pri:0, instance:com.saucedemo.LoginTest@6646153]" started-at="2022-07-21T22:56:18 EDT" name="LoginWithLockedOutUser" finished-at="2022-07-21T22:56:19 EDT" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithLockedOutUser -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.saucedemo.LoginTest@6646153]" started-at="2022-07-21T22:56:19 EDT" name="afterEachTestMethod" finished-at="2022-07-21T22:56:19 EDT" duration-ms="170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginWithLockedOutUser status=SUCCESS method=LoginTest.LoginWithLockedOutUser()[pri:0, instance:com.saucedemo.LoginTest@6646153] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.LoginTest@6646153]" started-at="2022-07-21T22:56:19 EDT" name="setUp" finished-at="2022-07-21T22:56:21 EDT" duration-ms="1640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserStack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.LoginTest@6646153]" started-at="2022-07-21T22:56:21 EDT" name="startExtent" finished-at="2022-07-21T22:56:21 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.LoginTest.LoginWithValidCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="LoginWithValidCredentials()[pri:0, instance:com.saucedemo.LoginTest@6646153]" started-at="2022-07-21T22:56:21 EDT" name="LoginWithValidCredentials" finished-at="2022-07-21T22:56:21 EDT" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCredentials -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.saucedemo.LoginTest@6646153]" started-at="2022-07-21T22:56:21 EDT" name="afterEachTestMethod" finished-at="2022-07-21T22:56:21 EDT" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginWithValidCredentials status=SUCCESS method=LoginTest.LoginWithValidCredentials()[pri:0, instance:com.saucedemo.LoginTest@6646153] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.LoginTest@6646153]" started-at="2022-07-21T22:56:21 EDT" name="setUp" finished-at="2022-07-21T22:56:23 EDT" duration-ms="1570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserStack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.LoginTest@6646153]" started-at="2022-07-21T22:56:23 EDT" name="startExtent" finished-at="2022-07-21T22:56:23 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.LoginTest.checkPresenceOfLoginPageComponents()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="checkPresenceOfLoginPageComponents()[pri:0, instance:com.saucedemo.LoginTest@6646153]" started-at="2022-07-21T22:56:23 EDT" name="checkPresenceOfLoginPageComponents" finished-at="2022-07-21T22:56:23 EDT" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPresenceOfLoginPageComponents -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.saucedemo.LoginTest@6646153]" started-at="2022-07-21T22:56:23 EDT" name="afterEachTestMethod" finished-at="2022-07-21T22:56:23 EDT" duration-ms="182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkPresenceOfLoginPageComponents status=SUCCESS method=LoginTest.checkPresenceOfLoginPageComponents()[pri:0, instance:com.saucedemo.LoginTest@6646153] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.LoginTest@6646153]" started-at="2022-07-21T22:56:23 EDT" name="setUp" finished-at="2022-07-21T22:56:26 EDT" duration-ms="2585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserStack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.LoginTest@6646153]" started-at="2022-07-21T22:56:26 EDT" name="startExtent" finished-at="2022-07-21T22:56:26 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.LoginTest.checkUserLandsOnTheRightWebsite()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="checkUserLandsOnTheRightWebsite()[pri:0, instance:com.saucedemo.LoginTest@6646153]" started-at="2022-07-21T22:56:26 EDT" name="checkUserLandsOnTheRightWebsite" finished-at="2022-07-21T22:56:26 EDT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUserLandsOnTheRightWebsite -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.saucedemo.LoginTest@6646153]" started-at="2022-07-21T22:56:26 EDT" name="afterEachTestMethod" finished-at="2022-07-21T22:56:26 EDT" duration-ms="188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkUserLandsOnTheRightWebsite status=SUCCESS method=LoginTest.checkUserLandsOnTheRightWebsite()[pri:0, instance:com.saucedemo.LoginTest@6646153] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- com.saucedemo.LoginTest -->
+    </test> <!-- Login -->
+    <test started-at="2022-07-21T22:56:26 EDT" name="Home Page" finished-at="2022-07-21T22:56:47 EDT" duration-ms="20955">
+      <class name="com.saucedemo.HomePageTest">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.HomePageTest@7995092a]" started-at="2022-07-21T22:56:26 EDT" name="setUp" finished-at="2022-07-21T22:56:29 EDT" duration-ms="3040" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserStack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CheckFooterCopyScriptAndPresence()[pri:0, instance:com.saucedemo.HomePageTest@7995092a]" started-at="2022-07-21T22:56:29 EDT" name="CheckFooterCopyScriptAndPresence" finished-at="2022-07-21T22:56:32 EDT" duration-ms="3461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckFooterCopyScriptAndPresence -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.HomePageTest@7995092a]" started-at="2022-07-21T22:56:29 EDT" name="startExtent" finished-at="2022-07-21T22:56:29 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.HomePageTest.CheckFooterCopyScriptAndPresence() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.saucedemo.HomePageTest@7995092a]" started-at="2022-07-21T22:56:32 EDT" name="afterEachTestMethod" finished-at="2022-07-21T22:56:33 EDT" duration-ms="192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckFooterCopyScriptAndPresence status=SUCCESS method=HomePageTest.CheckFooterCopyScriptAndPresence()[pri:0, instance:com.saucedemo.HomePageTest@7995092a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.HomePageTest@7995092a]" started-at="2022-07-21T22:56:33 EDT" name="setUp" finished-at="2022-07-21T22:56:35 EDT" duration-ms="1982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserStack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.HomePageTest@7995092a]" started-at="2022-07-21T22:56:35 EDT" name="startExtent" finished-at="2022-07-21T22:56:35 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.HomePageTest.CheckHomePageComponentPresence() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="CheckHomePageComponentPresence()[pri:0, instance:com.saucedemo.HomePageTest@7995092a]" started-at="2022-07-21T22:56:35 EDT" name="CheckHomePageComponentPresence" finished-at="2022-07-21T22:56:38 EDT" duration-ms="3518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckHomePageComponentPresence -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.saucedemo.HomePageTest@7995092a]" started-at="2022-07-21T22:56:38 EDT" name="afterEachTestMethod" finished-at="2022-07-21T22:56:38 EDT" duration-ms="212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckHomePageComponentPresence status=SUCCESS method=HomePageTest.CheckHomePageComponentPresence()[pri:0, instance:com.saucedemo.HomePageTest@7995092a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.HomePageTest@7995092a]" started-at="2022-07-21T22:56:38 EDT" name="setUp" finished-at="2022-07-21T22:56:40 EDT" duration-ms="2016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserStack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.HomePageTest@7995092a]" started-at="2022-07-21T22:56:40 EDT" name="startExtent" finished-at="2022-07-21T22:56:40 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.HomePageTest.CheckMenuBtnSideBar() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="CheckMenuBtnSideBar()[pri:0, instance:com.saucedemo.HomePageTest@7995092a]" started-at="2022-07-21T22:56:40 EDT" name="CheckMenuBtnSideBar" finished-at="2022-07-21T22:56:43 EDT" duration-ms="2333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckMenuBtnSideBar -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.saucedemo.HomePageTest@7995092a]" started-at="2022-07-21T22:56:43 EDT" name="afterEachTestMethod" finished-at="2022-07-21T22:56:43 EDT" duration-ms="182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckMenuBtnSideBar status=SUCCESS method=HomePageTest.CheckMenuBtnSideBar()[pri:0, instance:com.saucedemo.HomePageTest@7995092a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.HomePageTest@7995092a]" started-at="2022-07-21T22:56:43 EDT" name="setUp" finished-at="2022-07-21T22:56:44 EDT" duration-ms="1598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserStack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.HomePageTest@7995092a]" started-at="2022-07-21T22:56:44 EDT" name="startExtent" finished-at="2022-07-21T22:56:44 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.HomePageTest.clickOnTheMenuBtn() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="clickOnTheMenuBtn()[pri:0, instance:com.saucedemo.HomePageTest@7995092a]" started-at="2022-07-21T22:56:44 EDT" name="clickOnTheMenuBtn" finished-at="2022-07-21T22:56:45 EDT" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnTheMenuBtn -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.saucedemo.HomePageTest@7995092a]" started-at="2022-07-21T22:56:45 EDT" name="afterEachTestMethod" finished-at="2022-07-21T22:56:45 EDT" duration-ms="192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnTheMenuBtn status=SUCCESS method=HomePageTest.clickOnTheMenuBtn()[pri:0, instance:com.saucedemo.HomePageTest@7995092a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.HomePageTest@7995092a]" started-at="2022-07-21T22:56:45 EDT" name="setUp" finished-at="2022-07-21T22:56:46 EDT" duration-ms="1498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserStack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.HomePageTest@7995092a]" started-at="2022-07-21T22:56:46 EDT" name="startExtent" finished-at="2022-07-21T22:56:46 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.HomePageTest.PresenceOfHomePageComponents()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="PresenceOfHomePageComponents()[pri:1, instance:com.saucedemo.HomePageTest@7995092a]" started-at="2022-07-21T22:56:46 EDT" name="PresenceOfHomePageComponents" finished-at="2022-07-21T22:56:47 EDT" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PresenceOfHomePageComponents -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.saucedemo.HomePageTest@7995092a]" started-at="2022-07-21T22:56:47 EDT" name="afterEachTestMethod" finished-at="2022-07-21T22:56:47 EDT" duration-ms="138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PresenceOfHomePageComponents status=SUCCESS method=HomePageTest.PresenceOfHomePageComponents()[pri:1, instance:com.saucedemo.HomePageTest@7995092a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- com.saucedemo.HomePageTest -->
+    </test> <!-- Home Page -->
+    <test started-at="2022-07-21T22:56:47 EDT" name="Inventory Back Pack page" finished-at="2022-07-21T22:57:02 EDT" duration-ms="15153">
+      <class name="com.saucedemo.InventoryBackpackTest">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.InventoryBackpackTest@1e730495]" started-at="2022-07-21T22:56:47 EDT" name="setUp" finished-at="2022-07-21T22:56:48 EDT" duration-ms="1546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserStack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.InventoryBackpackTest@1e730495]" started-at="2022-07-21T22:56:48 EDT" name="startExtent" finished-at="2022-07-21T22:56:48 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.InventoryBackpackTest.ClickOnBackpackItem() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="ClickOnBackpackItem()[pri:1, instance:com.saucedemo.InventoryBackpackTest@1e730495]" started-at="2022-07-21T22:56:48 EDT" name="ClickOnBackpackItem" finished-at="2022-07-21T22:56:51 EDT" duration-ms="2313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnBackpackItem -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.saucedemo.InventoryBackpackTest@1e730495]" started-at="2022-07-21T22:56:51 EDT" name="afterEachTestMethod" finished-at="2022-07-21T22:56:51 EDT" duration-ms="206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnBackpackItem status=SUCCESS method=InventoryBackpackTest.ClickOnBackpackItem()[pri:1, instance:com.saucedemo.InventoryBackpackTest@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.InventoryBackpackTest@1e730495]" started-at="2022-07-21T22:56:51 EDT" name="setUp" finished-at="2022-07-21T22:56:53 EDT" duration-ms="2433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserStack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.InventoryBackpackTest@1e730495]" started-at="2022-07-21T22:56:53 EDT" name="startExtent" finished-at="2022-07-21T22:56:53 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.InventoryBackpackTest.VerifyBackpackItemDescriptionAndPrice() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="VerifyBackpackItemDescriptionAndPrice()[pri:2, instance:com.saucedemo.InventoryBackpackTest@1e730495]" started-at="2022-07-21T22:56:53 EDT" name="VerifyBackpackItemDescriptionAndPrice" finished-at="2022-07-21T22:56:56 EDT" duration-ms="2415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBackpackItemDescriptionAndPrice -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.saucedemo.InventoryBackpackTest@1e730495]" started-at="2022-07-21T22:56:56 EDT" name="afterEachTestMethod" finished-at="2022-07-21T22:56:56 EDT" duration-ms="181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyBackpackItemDescriptionAndPrice status=SUCCESS method=InventoryBackpackTest.VerifyBackpackItemDescriptionAndPrice()[pri:2, instance:com.saucedemo.InventoryBackpackTest@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.InventoryBackpackTest@1e730495]" started-at="2022-07-21T22:56:56 EDT" name="setUp" finished-at="2022-07-21T22:56:59 EDT" duration-ms="3499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserStack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.InventoryBackpackTest@1e730495]" started-at="2022-07-21T22:56:59 EDT" name="startExtent" finished-at="2022-07-21T22:56:59 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.InventoryBackpackTest.ClickOnBackpackAddToCart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="ClickOnBackpackAddToCart()[pri:3, instance:com.saucedemo.InventoryBackpackTest@1e730495]" started-at="2022-07-21T22:56:59 EDT" name="ClickOnBackpackAddToCart" finished-at="2022-07-21T22:57:02 EDT" duration-ms="2369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnBackpackAddToCart -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.saucedemo.InventoryBackpackTest@1e730495]" started-at="2022-07-21T22:57:02 EDT" name="afterEachTestMethod" finished-at="2022-07-21T22:57:02 EDT" duration-ms="182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnBackpackAddToCart status=SUCCESS method=InventoryBackpackTest.ClickOnBackpackAddToCart()[pri:3, instance:com.saucedemo.InventoryBackpackTest@1e730495] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- com.saucedemo.InventoryBackpackTest -->
+    </test> <!-- Inventory Back Pack page -->
+    <test started-at="2022-07-21T22:57:02 EDT" name="Sort Container Item Sort" finished-at="2022-07-21T22:57:09 EDT" duration-ms="6897">
+      <class name="com.saucedemo.ProductSortContainerTest">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.ProductSortContainerTest@7692d9cc]" started-at="2022-07-21T22:57:02 EDT" name="setUp" finished-at="2022-07-21T22:57:05 EDT" duration-ms="3023" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserStack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.ProductSortContainerTest@7692d9cc]" started-at="2022-07-21T22:57:05 EDT" name="startExtent" finished-at="2022-07-21T22:57:05 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.ProductSortContainerTest.selectFromSortContainer() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="selectFromSortContainer()[pri:0, instance:com.saucedemo.ProductSortContainerTest@7692d9cc]" started-at="2022-07-21T22:57:05 EDT" name="selectFromSortContainer" finished-at="2022-07-21T22:57:09 EDT" duration-ms="3655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFromSortContainer -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.saucedemo.ProductSortContainerTest@7692d9cc]" started-at="2022-07-21T22:57:09 EDT" name="afterEachTestMethod" finished-at="2022-07-21T22:57:09 EDT" duration-ms="216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectFromSortContainer status=SUCCESS method=ProductSortContainerTest.selectFromSortContainer()[pri:0, instance:com.saucedemo.ProductSortContainerTest@7692d9cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- com.saucedemo.ProductSortContainerTest -->
+    </test> <!-- Sort Container Item Sort -->
+    <test started-at="2022-07-21T22:57:09 EDT" name="Add Item to cart page" finished-at="2022-07-21T22:57:29 EDT" duration-ms="20445">
+      <class name="com.saucedemo.AddItemToCartTest">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:com.saucedemo.AddItemToCartTest@2fd6b6c7]" started-at="2022-07-21T22:56:10 EDT" name="extentSetup" finished-at="2022-07-21T22:56:10 EDT" duration-ms="438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@70543cae]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report Directory/Users/sanjaysinghgussain/IdeaProjects/comlearnAutomation/test-output/html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.AddItemToCartTest@2fd6b6c7]" started-at="2022-07-21T22:57:09 EDT" name="setUp" finished-at="2022-07-21T22:57:12 EDT" duration-ms="2979" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserStack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.AddItemToCartTest@2fd6b6c7]" started-at="2022-07-21T22:57:12 EDT" name="startExtent" finished-at="2022-07-21T22:57:12 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -76,22 +1097,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="VerifyCheckoutBtn()[pri:0, instance:com.saucedemo.AddItemToCartTest@3bd40a57]" started-at="2022-07-11T10:04:48 EDT" name="VerifyCheckoutBtn" finished-at="2022-07-11T10:04:52 EDT" duration-ms="3655" status="PASS">
+        <test-method signature="VerifyCheckoutBtn()[pri:0, instance:com.saucedemo.AddItemToCartTest@2fd6b6c7]" started-at="2022-07-21T22:57:12 EDT" name="VerifyCheckoutBtn" finished-at="2022-07-21T22:57:15 EDT" duration-ms="3468" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCheckoutBtn -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.saucedemo.AddItemToCartTest@3bd40a57]" started-at="2022-07-11T10:04:52 EDT" name="afterEachTestMethod" finished-at="2022-07-11T10:04:52 EDT" duration-ms="414" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.saucedemo.AddItemToCartTest@2fd6b6c7]" started-at="2022-07-21T22:57:15 EDT" name="afterEachTestMethod" finished-at="2022-07-21T22:57:16 EDT" duration-ms="181" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyCheckoutBtn status=SUCCESS method=AddItemToCartTest.VerifyCheckoutBtn()[pri:0, instance:com.saucedemo.AddItemToCartTest@3bd40a57] output={null}]]]>
+                <![CDATA[[TestResult name=VerifyCheckoutBtn status=SUCCESS method=AddItemToCartTest.VerifyCheckoutBtn()[pri:0, instance:com.saucedemo.AddItemToCartTest@2fd6b6c7] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.AddItemToCartTest@3bd40a57]" started-at="2022-07-11T10:04:52 EDT" name="setUp" finished-at="2022-07-11T10:04:54 EDT" duration-ms="1793" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.AddItemToCartTest@2fd6b6c7]" started-at="2022-07-21T22:57:16 EDT" name="setUp" finished-at="2022-07-21T22:57:19 EDT" duration-ms="3707" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -132,7 +1153,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.AddItemToCartTest@3bd40a57]" started-at="2022-07-11T10:04:54 EDT" name="startExtent" finished-at="2022-07-11T10:04:54 EDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.AddItemToCartTest@2fd6b6c7]" started-at="2022-07-21T22:57:19 EDT" name="startExtent" finished-at="2022-07-21T22:57:19 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -143,22 +1164,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="VerifyContinueShoppingBtn()[pri:0, instance:com.saucedemo.AddItemToCartTest@3bd40a57]" started-at="2022-07-11T10:04:54 EDT" name="VerifyContinueShoppingBtn" finished-at="2022-07-11T10:04:58 EDT" duration-ms="3827" status="PASS">
+        <test-method signature="VerifyContinueShoppingBtn()[pri:0, instance:com.saucedemo.AddItemToCartTest@2fd6b6c7]" started-at="2022-07-21T22:57:19 EDT" name="VerifyContinueShoppingBtn" finished-at="2022-07-21T22:57:23 EDT" duration-ms="3640" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyContinueShoppingBtn -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.saucedemo.AddItemToCartTest@3bd40a57]" started-at="2022-07-11T10:04:58 EDT" name="afterEachTestMethod" finished-at="2022-07-11T10:04:58 EDT" duration-ms="232" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.saucedemo.AddItemToCartTest@2fd6b6c7]" started-at="2022-07-21T22:57:23 EDT" name="afterEachTestMethod" finished-at="2022-07-21T22:57:23 EDT" duration-ms="169" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyContinueShoppingBtn status=SUCCESS method=AddItemToCartTest.VerifyContinueShoppingBtn()[pri:0, instance:com.saucedemo.AddItemToCartTest@3bd40a57] output={null}]]]>
+                <![CDATA[[TestResult name=VerifyContinueShoppingBtn status=SUCCESS method=AddItemToCartTest.VerifyContinueShoppingBtn()[pri:0, instance:com.saucedemo.AddItemToCartTest@2fd6b6c7] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.AddItemToCartTest@3bd40a57]" started-at="2022-07-11T10:04:58 EDT" name="setUp" finished-at="2022-07-11T10:05:00 EDT" duration-ms="1753" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.AddItemToCartTest@2fd6b6c7]" started-at="2022-07-21T22:57:23 EDT" name="setUp" finished-at="2022-07-21T22:57:26 EDT" duration-ms="2615" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -199,7 +1220,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.AddItemToCartTest@3bd40a57]" started-at="2022-07-11T10:05:00 EDT" name="startExtent" finished-at="2022-07-11T10:05:00 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.AddItemToCartTest@2fd6b6c7]" started-at="2022-07-21T22:57:26 EDT" name="startExtent" finished-at="2022-07-21T22:57:26 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -210,22 +1231,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="VerifyThePresenceComponentsOfCartPage()[pri:0, instance:com.saucedemo.AddItemToCartTest@3bd40a57]" started-at="2022-07-11T10:05:00 EDT" name="VerifyThePresenceComponentsOfCartPage" finished-at="2022-07-11T10:05:03 EDT" duration-ms="3557" status="PASS">
+        <test-method signature="VerifyThePresenceComponentsOfCartPage()[pri:0, instance:com.saucedemo.AddItemToCartTest@2fd6b6c7]" started-at="2022-07-21T22:57:26 EDT" name="VerifyThePresenceComponentsOfCartPage" finished-at="2022-07-21T22:57:29 EDT" duration-ms="3505" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyThePresenceComponentsOfCartPage -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.saucedemo.AddItemToCartTest@3bd40a57]" started-at="2022-07-11T10:05:03 EDT" name="afterEachTestMethod" finished-at="2022-07-11T10:05:04 EDT" duration-ms="203" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.saucedemo.AddItemToCartTest@2fd6b6c7]" started-at="2022-07-21T22:57:29 EDT" name="afterEachTestMethod" finished-at="2022-07-21T22:57:29 EDT" duration-ms="174" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyThePresenceComponentsOfCartPage status=SUCCESS method=AddItemToCartTest.VerifyThePresenceComponentsOfCartPage()[pri:0, instance:com.saucedemo.AddItemToCartTest@3bd40a57] output={null}]]]>
+                <![CDATA[[TestResult name=VerifyThePresenceComponentsOfCartPage status=SUCCESS method=AddItemToCartTest.VerifyThePresenceComponentsOfCartPage()[pri:0, instance:com.saucedemo.AddItemToCartTest@2fd6b6c7] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.saucedemo.AddItemToCartTest@3bd40a57]" started-at="2022-07-11T10:05:04 EDT" name="generateReport" finished-at="2022-07-11T10:05:04 EDT" duration-ms="24" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.saucedemo.AddItemToCartTest@2fd6b6c7]" started-at="2022-07-21T22:57:29 EDT" name="generateReport" finished-at="2022-07-21T22:57:29 EDT" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
